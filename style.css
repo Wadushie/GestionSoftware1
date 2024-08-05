@@ -1,0 +1,29 @@
+/*30-07-2024*/
+/*Selector Universal*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0 auto;
+}
+body{
+    background-color: lightgray;
+}
+#tortilla{
+    width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 10px solid black;
+}
+.contenedor{
+    display: inline-block;
+}
+.estandar{
+    width: 120px;
+    height: 200px;
+}
+.normal tr, .normal td{
+    width: 100px;
+    border: 2px solid #000;
+}
